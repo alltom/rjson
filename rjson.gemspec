@@ -25,7 +25,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/rjson.rb",
+    "lib/rjson/railtie.rb",
     "rails/init.rb",
+    "rjson.gemspec",
     "test/helper.rb",
     "test/test_rjson.rb"
   ]
