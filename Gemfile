@@ -9,4 +9,7 @@ group :development do
   gem "bundler", "~> 1.0.0"
   gem "jeweler", "~> 1.6.4"
   gem "rcov", ">= 0"
+  gem "actionpack" # for Mime
+  gem "activesupport" # for ActiveSupport::JSON
+  gem "i18n" # required by ActiveSupport::JSON
 end

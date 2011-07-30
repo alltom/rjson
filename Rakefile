@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rjson"
   gem.homepage = "http://github.com/alltom/rjson"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{write JSON views as views}
+  gem.description = %Q{a Rails template handler that evals the view and calls to_json}
   gem.email = "tom@alltom.com"
   gem.authors = ["Tom Lieber"]
   # dependencies defined in Gemfile
