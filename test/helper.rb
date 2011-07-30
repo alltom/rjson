@@ -9,6 +9,11 @@ rescue Bundler::BundlerError => e
 end
 require 'test/unit'
 
+require "active_support/core_ext/class/attribute" # for class_attribute
+require "action_dispatch/http/mime_type"
+require "active_support/json"
+require "active_support/core_ext/object/conversions" # rails ticket https://gist.github.com/971766
+
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'rjson'

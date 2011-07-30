@@ -1,7 +1,4 @@
 require "helper"
-require "action_dispatch/http/mime_type"
-require "active_support/json"
-require "active_support/core_ext/object/conversions" # rails ticket https://gist.github.com/971766
 
 # mocks ActionDispatch::response
 class FakeResponse

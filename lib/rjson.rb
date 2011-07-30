@@ -1,11 +1,11 @@
+require "rjson/railtie" if defined?(Rails)
 
 module RJSON
 
   # template handler
   class Handler
-    def self.default_format
-      Mime::JSON
-    end
+    class_attribute :default_format
+    self.default_format = Mime::JSON
 
     # evals the template, then converts to an RJSONBuffer
     def call(template)
